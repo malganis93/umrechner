@@ -31,6 +31,7 @@ public class Umrechner {
 			System.out.println("Moechtest du die Zahl in noch ein Zahlensystem umwandeln? [ja/nein]");
 			String answ = sc.next();
 			
+			
 			if (answ.equals("ja"))
 			{
 				System.out.println("Welche Basis hat das Zahlensystem?");
