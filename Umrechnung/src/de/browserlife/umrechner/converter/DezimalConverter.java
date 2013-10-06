@@ -1,8 +1,7 @@
 package de.browserlife.umrechner.converter;
 
-import de.browserlife.umrechner.interfaces.ConverterInterface;
 
-public class Converter implements ConverterInterface {
+public class DezimalConverter implements NumberSystemConverterInterface {
 	protected int base;
 
 	@Override

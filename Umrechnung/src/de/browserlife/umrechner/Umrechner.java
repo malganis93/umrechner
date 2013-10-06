@@ -12,7 +12,7 @@ public class Umrechner {
 		Scanner sc = new Scanner(System.in);
 		
 		int iDez = sc.nextInt();
-		Converter conv = new Converter();
+		DezimalConverter conv = new DezimalConverter();
 		
 		conv.setBase(2);
 		System.out.println("Binaer:");
@@ -37,7 +37,7 @@ public class Umrechner {
 				int zs = sc.nextInt();
 				if (zs<2 || zs>35)
 				{
-					System.out.println("Nicht unterstütztes Zahlensystem");
+					System.out.println("Nicht unterstï¿½tztes Zahlensystem");
 					continue;
 				}
 								
